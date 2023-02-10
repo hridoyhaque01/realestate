@@ -1,0 +1,22 @@
+font family ==>
+
+raleway sami
+raleway med
+raleway bold
+work sans reg
+karla reg
+karla bold 
+
+
+font-family: 'Karla', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+font size ==>
+
+18px
+20px
+22px
+26px
+54px
+62px
