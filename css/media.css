@@ -1,12 +1,28 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   /* header start  */
+  header {
+    padding: 5px 0;
+  }
+
+  .head-logo img {
+    width: 65%;
+  }
 
   .main-menu {
     margin: 30px 0;
   }
 
+  .head-right {
+    width: 100%;
+  }
+
+  .head-right li {
+    width: 100%;
+  }
+
   .search-menu {
+    margin-top: 20px !important;
     position: static;
   }
 
@@ -91,7 +107,7 @@
   }
 
   .single-choose .img-part {
-    margin-left: 25px;
+    margin-left: 0;
     margin-right: 35px;
     padding: 49px 12px 15px;
   }
@@ -167,6 +183,11 @@
     right: -20px;
     width: 45px;
     height: 45px;
+  }
+
+  .single-content {
+    margin-top: 30px;
+    padding: 10px;
   }
 
   /* proprty end  */
@@ -299,6 +320,10 @@
 
   /* download start  */
 
+  .download {
+    padding: 60px 0 30px;
+  }
+
   .download-content {
     margin-top: 40px;
   }
@@ -341,6 +366,13 @@
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* header start  */
+  header {
+    padding: 5px 0;
+  }
+
+  .head-logo img {
+    width: 75%;
+  }
 
   .main-menu {
     margin: 30px 0;
@@ -539,6 +571,13 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* header start  */
+  header {
+    padding: 5px 0;
+  }
+
+  .head-logo img {
+    width: 75%;
+  }
 
   .main-menu {
     margin: 30px 0;
