@@ -101,8 +101,12 @@
     margin: 100px 10px 0;
   }
 
+  .common-content p {
+    font-size: var(--font-16);
+  }
+
   .common-content h1 {
-    font-size: var(--font-36);
+    font-size: var(--font-30);
     line-height: 120%;
   }
 
@@ -112,9 +116,9 @@
     padding: 49px 12px 15px;
   }
 
-  .choose-texts h2 {
-    font-size: var(--font-20);
-    line-height: 30px;
+  .subtitle {
+    font-size: var(--font-18);
+    line-height: 24px;
   }
 
   .choose-texts p {
@@ -143,11 +147,6 @@
     height: 145px;
   }
 
-  .single-item h2 {
-    font-size: var(--font-20);
-    line-height: 25px;
-  }
-
   /* category end  */
 
   /* proprty start  */
@@ -161,22 +160,6 @@
     font-size: var(--font-14);
     border-width: 1px;
     border-radius: 4px;
-  }
-
-  .details {
-    position: absolute;
-    bottom: 10px;
-    width: 200px;
-    padding: 12px 20px;
-    color: var(--white-clr);
-  }
-
-  .details h2 {
-    font-weight: 700;
-    font-size: var(--font-18);
-    line-height: 34px;
-    letter-spacing: 1px;
-    color: var(--white-clr);
   }
 
   .p-icon {
@@ -242,15 +225,16 @@
   .filter2 select,
   .search-sel input,
   .search-sel button {
-    height: 50px;
+    height: 44px;
   }
 
-  /* .single-home {
-    margin: 30px 40px 0;
-  } */
+  .filter2 select {
+    font-size: var(--font-16);
+  }
 
-  .build-title h2 {
-    font-size: var(--font-18);
+  .rating {
+    width: 35px;
+    height: 35px;
   }
 
   .details-btn {
@@ -328,10 +312,10 @@
     margin-top: 40px;
   }
 
-  .download-content h2 {
+  /* .download-content h2 {
     font-size: var(--font-22);
     line-height: 40px;
-  }
+  } */
 
   .download-content p {
     margin: 15px 0 30px;
@@ -510,9 +494,9 @@
     margin: 30px 40px 0;
   } */
 
-  .build-title h2 {
+  /* .build-title h2 {
     font-size: var(--font-18);
-  }
+  } */
 
   .details-btn {
     width: 140px;
@@ -655,8 +639,8 @@
 
   .single-serv h2 {
     margin: 18px 0 10px;
-    font-size: var(--font-20);
-    line-height: 22px;
+    /* font-size: var(--font-20);
+    line-height: 22px; */
   }
 
   /* service end  */
@@ -692,9 +676,9 @@
     height: 55px;
   }
 
-  .build-title h2 {
+  /* .build-title h2 {
     font-size: var(--font-18);
-  }
+  } */
 
   .details-btn {
     width: 140px;
@@ -742,6 +726,11 @@
   /* download end  */
 
   /* footer start  */
+
+  .f-content h2 {
+    margin-bottom: 20px;
+  }
+
   .f-social li a {
     width: 45px;
     height: 45px;
@@ -812,10 +801,10 @@
     height: 75px;
   }
 
-  .choose-texts h2 {
+  /* .choose-texts h2 {
     font-size: var(--font-18);
     line-height: 26px;
-  }
+  } */
 
   .choose-texts p {
     margin-top: 10px;
@@ -917,5 +906,10 @@
 
   .img-part {
     max-width: 90%;
+  }
+
+  .banner,
+  .common-sec {
+    padding: 90px 0;
   }
 }
