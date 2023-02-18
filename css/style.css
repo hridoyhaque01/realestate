@@ -233,7 +233,7 @@ header {
   font-size: var(--font-62);
   font-weight: 700;
   color: var(--dark-clr);
-  line-height: 120%;
+  line-height: 80px;
 }
 
 .banner-content h1 span {
@@ -256,7 +256,7 @@ header {
   font-weight: 700;
   font-size: var(--font-20);
   color: var(--white-clr);
-  line-height: 125%;
+  line-height: 28px;
   letter-spacing: 0.05em;
   background: var(--blue-clr);
 }
@@ -356,7 +356,7 @@ header {
   font-family: var(--raleway);
   font-weight: 700;
   font-size: var(--font-18);
-  line-height: 125%;
+  line-height: 24px;
   letter-spacing: 0.07em;
   color: var(--blue-clr);
 }
@@ -366,7 +366,7 @@ header {
   font-family: var(--raleway);
   font-weight: 600;
   font-size: var(--font-54);
-  line-height: 120%;
+  line-height: 70px;
   letter-spacing: -0.02em;
   color: var(--dark-clr);
 }
@@ -933,7 +933,7 @@ header {
 .single-info h4 {
   font-size: var(--font-18);
   color: var(--dark-clr);
-  line-height: 155%;
+  line-height: 28px;
 }
 
 .single-info h4 span {
@@ -1057,7 +1057,7 @@ header {
   display: inline-block;
   padding: 8px 20px;
   font-weight: 500;
-  line-height: 70%;
+  line-height: 20px;
   letter-spacing: -0.02em;
   color: var(--white-clr);
   background-color: var(--orange-clr);
@@ -1066,7 +1066,7 @@ header {
 
 .blg-txt {
   margin: 8px 0 18px;
-  line-height: 150%;
+  line-height: 30px;
   color: var(--ash-clr);
 }
 

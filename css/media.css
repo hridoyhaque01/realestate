@@ -77,6 +77,7 @@
 
   .banner-content h1 {
     font-size: var(--font-28);
+    line-height: 40px;
   }
 
   .banner-content p {
@@ -107,7 +108,7 @@
 
   .common-content h1 {
     font-size: var(--font-30);
-    line-height: 120%;
+    line-height: 40px;
   }
 
   .single-choose .img-part {
@@ -124,7 +125,7 @@
   .choose-texts p {
     font-size: var(--font-15);
     margin-top: 10px;
-    line-height: 20px;
+    line-height: 24px;
   }
 
   .icon-content {
@@ -249,7 +250,7 @@
 
   .single-info h4 {
     font-size: var(--font-15);
-    line-height: 155%;
+    line-height: 20px;
   }
 
   .home-body,
@@ -397,6 +398,7 @@
   .banner-content h1 {
     margin: 0 40px;
     font-size: var(--font-32);
+    line-height: 50px;
   }
 
   .banner-content p {
@@ -413,7 +415,7 @@
 
   .common-content h1 {
     font-size: var(--font-36);
-    line-height: 120%;
+    line-height: 44px;
   }
 
   .single-choose .img-part {
@@ -510,7 +512,7 @@
 
   .single-info h4 {
     font-size: var(--font-16);
-    line-height: 155%;
+    line-height: 20px;
   }
 
   .home-body,
@@ -600,6 +602,7 @@
 
   .banner-content h1 {
     font-size: var(--font-48);
+    line-height: 65px;
   }
 
   /* banner end  */
@@ -612,7 +615,7 @@
 
   .common-content h1 {
     font-size: var(--font-36);
-    line-height: 120%;
+    line-height: 44px;
   }
 
   .single-choose .img-part {
@@ -687,7 +690,7 @@
 
   .single-info h4 {
     font-size: var(--font-16);
-    line-height: 155%;
+    line-height: 20px;
   }
 
   .home-body,
